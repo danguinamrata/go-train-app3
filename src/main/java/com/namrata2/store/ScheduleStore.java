@@ -10,5 +10,8 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface ScheduleStore extends CrudRepository<ScheduleEntity, Integer>{
 
+
+    List<ScheduleEntity> findByLine(final String line);
+
 }
 

@@ -9,7 +9,9 @@ import com.namrata2.store.ScheduleStore;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.io.IOException;
 import java.util.*;
@@ -45,6 +47,13 @@ public class ScheduleService {
     public List<ScheduleModel> getAllSchedules() throws Exception {
         var scheduleEntities=new ArrayList<ScheduleEntity>();
         scheduleStore.findAll().forEach(scheduleEntities::add);
+        var scheduleModels = scheduleMapper.mapScheduleEntitiesToScheduleModels(scheduleEntities);
+        return new ArrayList<>(scheduleModels);
+    }
+
+    public List<ScheduleModel> getScheduleByLine(final String line)
+    {
+        var scheduleEntities = scheduleStore.findByLine(line);
         var scheduleModels = scheduleMapper.mapScheduleEntitiesToScheduleModels(scheduleEntities);
         return new ArrayList<>(scheduleModels);
     }
