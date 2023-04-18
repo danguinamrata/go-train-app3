@@ -43,7 +43,9 @@ public class ScheduleService {
     }
 
     public List<ScheduleModel> getAllSchedules() throws Exception {
-        var scheduleModels = scheduleMapper.mapScheduleEntitiesToScheduleModels(scheduleStore.findAll());
+        var scheduleEntities=new ArrayList<ScheduleEntity>();
+        scheduleStore.findAll().forEach(scheduleEntities::add);
+        var scheduleModels = scheduleMapper.mapScheduleEntitiesToScheduleModels(scheduleEntities);
         return new ArrayList<>(scheduleModels);
     }
 

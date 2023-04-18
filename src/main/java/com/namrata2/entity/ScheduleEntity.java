@@ -6,19 +6,15 @@ import jakarta.persistence.*;
 /**
  * Entity that represents schedule data
  *
- *
  * @author Namrata
  */
 
 @Entity
-@Table(name = "schedule")
+@Table
 public class ScheduleEntity {
 
-
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private String identifier;
-    @Column
+    @Column(name="id")
     private String id;
     @Column(name = "line")
     private String line;
@@ -33,8 +29,7 @@ public class ScheduleEntity {
 
     }
 
-    public ScheduleEntity(final String identifier, final String id, final String line, final String departure, final String arrival) {
-        this.identifier = identifier;
+    public ScheduleEntity(final String id, final String line, final String departure, final String arrival) {
         this.id = id;
         this.line = line;
         this.departure = departure;
@@ -45,7 +40,9 @@ public class ScheduleEntity {
         return id;
     }
 
-
+    public void setId(String id) {
+        this.id = id;
+    }
     @Override
     public String toString() {
         return "Schedule [id=" + id + ", line=" + line + ", departure=" + departure + ", arrival=" + arrival + "]";
@@ -75,11 +72,5 @@ public class ScheduleEntity {
         this.arrival = arrival;
     }
 
-    public String getIdentifier() {
-        return identifier;
-    }
 
-    public void setIdentifier(String identifier) {
-        this.identifier = identifier;
-    }
 }
