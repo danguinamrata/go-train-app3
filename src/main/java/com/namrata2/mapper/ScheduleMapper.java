@@ -4,7 +4,6 @@ package com.namrata2.mapper;
 import com.namrata2.entity.ScheduleEntity;
 import com.namrata2.model.ScheduleModel;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 
 import java.util.List;
 @Mapper(componentModel="spring")
