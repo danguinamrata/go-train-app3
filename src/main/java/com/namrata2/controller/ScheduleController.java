@@ -20,6 +20,13 @@ public class ScheduleController {
     @Autowired
     ScheduleService scheduleService;
 
+    /**
+     * This API returns the entire timetable as a JSON array.
+     *
+     * Empty schedule array return 204 No Content
+     * Any errors will be propagated as 500 Internal Server Error
+     * @return
+     */
     @GetMapping("/schedule")
     public ResponseEntity<List<ScheduleModel>> getAllSchedules() {
         try {
@@ -35,7 +42,14 @@ public class ScheduleController {
         }
     }
 
-
+    /**
+     * This endpoint will serve two cases,
+     *  - If departure param is null or not passed or is invalid then it returns all schedules for a particular line.
+     *  - If valid departure param is passed on, then it serves to return the result by line and departure.
+     * @param line
+     * @param departure
+     * @return
+     */
     @GetMapping("/schedule/{line}")
     public ResponseEntity<List<ScheduleModel>> getScheduleByLine(@PathVariable("line") String line, @RequestParam(required = false) String departure) {
         try {
