@@ -1,0 +1,1412 @@
+{
+	"info": {
+		"_postman_id": "155913a2-07c7-4ab9-92e8-69975a0907ae",
+		"name": "go-train-schedule-app-postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/schedule",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/schedule",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"schedule"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/api/schedule",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:15:47 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"1\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"800\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"3\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1200\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"4\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1400\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"5\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1600\",\n        \"arrival\": \"1700\"\n    },\n    {\n        \"id\": \"6\",\n        \"line\": \"Barrie\",\n        \"departure\": \"730\",\n        \"arrival\": \"930\"\n    },\n    {\n        \"id\": \"7\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1030\",\n        \"arrival\": \"1230\"\n    },\n    {\n        \"id\": \"8\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1230\",\n        \"arrival\": \"1430\"\n    },\n    {\n        \"id\": \"9\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1430\",\n        \"arrival\": \"1630\"\n    },\n    {\n        \"id\": \"10\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1630\",\n        \"arrival\": \"1830\"\n    },\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    },\n    {\n        \"id\": \"12\",\n        \"line\": \"Barrie\",\n        \"departure\": \"2030\",\n        \"arrival\": \"2230\"\n    },\n    {\n        \"id\": \"13\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"815\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"14\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1015\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"15\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1215\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"16\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1415\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"17\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1615\",\n        \"arrival\": \"1700\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/api/schedule Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/schedule/Barrie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"schedule",
+						"Barrie"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/api/schedule",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:15:47 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"1\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"800\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"3\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1200\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"4\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1400\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"5\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1600\",\n        \"arrival\": \"1700\"\n    },\n    {\n        \"id\": \"6\",\n        \"line\": \"Barrie\",\n        \"departure\": \"730\",\n        \"arrival\": \"930\"\n    },\n    {\n        \"id\": \"7\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1030\",\n        \"arrival\": \"1230\"\n    },\n    {\n        \"id\": \"8\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1230\",\n        \"arrival\": \"1430\"\n    },\n    {\n        \"id\": \"9\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1430\",\n        \"arrival\": \"1630\"\n    },\n    {\n        \"id\": \"10\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1630\",\n        \"arrival\": \"1830\"\n    },\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    },\n    {\n        \"id\": \"12\",\n        \"line\": \"Barrie\",\n        \"departure\": \"2030\",\n        \"arrival\": \"2230\"\n    },\n    {\n        \"id\": \"13\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"815\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"14\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1015\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"15\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1215\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"16\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1415\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"17\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1615\",\n        \"arrival\": \"1700\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Barrie",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Barrie",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Barrie"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:16:23 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"6\",\n        \"line\": \"Barrie\",\n        \"departure\": \"730\",\n        \"arrival\": \"930\"\n    },\n    {\n        \"id\": \"7\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1030\",\n        \"arrival\": \"1230\"\n    },\n    {\n        \"id\": \"8\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1230\",\n        \"arrival\": \"1430\"\n    },\n    {\n        \"id\": \"9\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1430\",\n        \"arrival\": \"1630\"\n    },\n    {\n        \"id\": \"10\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1630\",\n        \"arrival\": \"1830\"\n    },\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    },\n    {\n        \"id\": \"12\",\n        \"line\": \"Barrie\",\n        \"departure\": \"2030\",\n        \"arrival\": \"2230\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/api/schedule Copy Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/schedule/Barrie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"schedule",
+						"Barrie"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/api/schedule",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:15:47 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"1\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"800\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"3\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1200\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"4\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1400\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"5\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1600\",\n        \"arrival\": \"1700\"\n    },\n    {\n        \"id\": \"6\",\n        \"line\": \"Barrie\",\n        \"departure\": \"730\",\n        \"arrival\": \"930\"\n    },\n    {\n        \"id\": \"7\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1030\",\n        \"arrival\": \"1230\"\n    },\n    {\n        \"id\": \"8\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1230\",\n        \"arrival\": \"1430\"\n    },\n    {\n        \"id\": \"9\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1430\",\n        \"arrival\": \"1630\"\n    },\n    {\n        \"id\": \"10\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1630\",\n        \"arrival\": \"1830\"\n    },\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    },\n    {\n        \"id\": \"12\",\n        \"line\": \"Barrie\",\n        \"departure\": \"2030\",\n        \"arrival\": \"2230\"\n    },\n    {\n        \"id\": \"13\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"815\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"14\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1015\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"15\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1215\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"16\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1415\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"17\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1615\",\n        \"arrival\": \"1700\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Lakeshore"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 05:57:48 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Lakeshore"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:42:58 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Barrie",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Barrie",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Barrie"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:16:23 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"6\",\n        \"line\": \"Barrie\",\n        \"departure\": \"730\",\n        \"arrival\": \"930\"\n    },\n    {\n        \"id\": \"7\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1030\",\n        \"arrival\": \"1230\"\n    },\n    {\n        \"id\": \"8\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1230\",\n        \"arrival\": \"1430\"\n    },\n    {\n        \"id\": \"9\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1430\",\n        \"arrival\": \"1630\"\n    },\n    {\n        \"id\": \"10\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1630\",\n        \"arrival\": \"1830\"\n    },\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    },\n    {\n        \"id\": \"12\",\n        \"line\": \"Barrie\",\n        \"departure\": \"2030\",\n        \"arrival\": \"2230\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/api/schedule Copy Copy Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/schedule/Barrie?departure=7:36am",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"schedule",
+						"Barrie"
+					],
+					"query": [
+						{
+							"key": "departure",
+							"value": "7:36am"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Lakeshore"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 05:57:48 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Lakeshore"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:42:58 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:15:47 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"1\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"800\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"3\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1200\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"4\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1400\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"5\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1600\",\n        \"arrival\": \"1700\"\n    },\n    {\n        \"id\": \"6\",\n        \"line\": \"Barrie\",\n        \"departure\": \"730\",\n        \"arrival\": \"930\"\n    },\n    {\n        \"id\": \"7\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1030\",\n        \"arrival\": \"1230\"\n    },\n    {\n        \"id\": \"8\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1230\",\n        \"arrival\": \"1430\"\n    },\n    {\n        \"id\": \"9\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1430\",\n        \"arrival\": \"1630\"\n    },\n    {\n        \"id\": \"10\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1630\",\n        \"arrival\": \"1830\"\n    },\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    },\n    {\n        \"id\": \"12\",\n        \"line\": \"Barrie\",\n        \"departure\": \"2030\",\n        \"arrival\": \"2230\"\n    },\n    {\n        \"id\": \"13\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"815\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"14\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1015\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"15\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1215\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"16\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1415\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"17\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1615\",\n        \"arrival\": \"1700\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Barrie",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Barrie",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Barrie"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:16:23 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"6\",\n        \"line\": \"Barrie\",\n        \"departure\": \"730\",\n        \"arrival\": \"930\"\n    },\n    {\n        \"id\": \"7\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1030\",\n        \"arrival\": \"1230\"\n    },\n    {\n        \"id\": \"8\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1230\",\n        \"arrival\": \"1430\"\n    },\n    {\n        \"id\": \"9\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1430\",\n        \"arrival\": \"1630\"\n    },\n    {\n        \"id\": \"10\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1630\",\n        \"arrival\": \"1830\"\n    },\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    },\n    {\n        \"id\": \"12\",\n        \"line\": \"Barrie\",\n        \"departure\": \"2030\",\n        \"arrival\": \"2230\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Barrie?departure=7.36am",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Barrie?departure=7:36am",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Barrie"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "7:36am"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 06:33:45 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/api/schedule Copy Copy Copy Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/schedule/Barrie?departure=7:36am",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"schedule",
+						"Barrie"
+					],
+					"query": [
+						{
+							"key": "departure",
+							"value": "7:36am"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/api/schedule/Barrie?departure=6:30pm",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Barrie?departure=6:30pm",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Barrie"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "6:30pm"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 06:46:32 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Lakeshore"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 05:57:48 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:15:47 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"1\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"800\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"3\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1200\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"4\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1400\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"5\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1600\",\n        \"arrival\": \"1700\"\n    },\n    {\n        \"id\": \"6\",\n        \"line\": \"Barrie\",\n        \"departure\": \"730\",\n        \"arrival\": \"930\"\n    },\n    {\n        \"id\": \"7\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1030\",\n        \"arrival\": \"1230\"\n    },\n    {\n        \"id\": \"8\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1230\",\n        \"arrival\": \"1430\"\n    },\n    {\n        \"id\": \"9\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1430\",\n        \"arrival\": \"1630\"\n    },\n    {\n        \"id\": \"10\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1630\",\n        \"arrival\": \"1830\"\n    },\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    },\n    {\n        \"id\": \"12\",\n        \"line\": \"Barrie\",\n        \"departure\": \"2030\",\n        \"arrival\": \"2230\"\n    },\n    {\n        \"id\": \"13\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"815\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"14\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1015\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"15\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1215\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"16\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1415\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"17\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1615\",\n        \"arrival\": \"1700\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Barrie?departure=7.36am",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Barrie?departure=7:36am",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Barrie"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "7:36am"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 06:33:45 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Lakeshore"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:42:58 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Barrie",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Barrie",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Barrie"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:16:23 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"6\",\n        \"line\": \"Barrie\",\n        \"departure\": \"730\",\n        \"arrival\": \"930\"\n    },\n    {\n        \"id\": \"7\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1030\",\n        \"arrival\": \"1230\"\n    },\n    {\n        \"id\": \"8\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1230\",\n        \"arrival\": \"1430\"\n    },\n    {\n        \"id\": \"9\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1430\",\n        \"arrival\": \"1630\"\n    },\n    {\n        \"id\": \"10\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1630\",\n        \"arrival\": \"1830\"\n    },\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    },\n    {\n        \"id\": \"12\",\n        \"line\": \"Barrie\",\n        \"departure\": \"2030\",\n        \"arrival\": \"2230\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/api/schedule Copy Copy Copy Copy Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/schedule/Barrie?departure=7:36am",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"schedule",
+						"Barrie"
+					],
+					"query": [
+						{
+							"key": "departure",
+							"value": "7:36am"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/api/schedule/Barrie?departure=7.36am",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Barrie?departure=7:36am",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Barrie"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "7:36am"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 06:33:45 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Barrie?departure=6:30pm",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Barrie?departure=6:30pm",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Barrie"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "6:30pm"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 06:46:32 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:15:47 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"1\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"800\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"3\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1200\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"4\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1400\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"5\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1600\",\n        \"arrival\": \"1700\"\n    },\n    {\n        \"id\": \"6\",\n        \"line\": \"Barrie\",\n        \"departure\": \"730\",\n        \"arrival\": \"930\"\n    },\n    {\n        \"id\": \"7\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1030\",\n        \"arrival\": \"1230\"\n    },\n    {\n        \"id\": \"8\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1230\",\n        \"arrival\": \"1430\"\n    },\n    {\n        \"id\": \"9\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1430\",\n        \"arrival\": \"1630\"\n    },\n    {\n        \"id\": \"10\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1630\",\n        \"arrival\": \"1830\"\n    },\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    },\n    {\n        \"id\": \"12\",\n        \"line\": \"Barrie\",\n        \"departure\": \"2030\",\n        \"arrival\": \"2230\"\n    },\n    {\n        \"id\": \"13\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"815\",\n        \"arrival\": \"900\"\n    },\n    {\n        \"id\": \"14\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1015\",\n        \"arrival\": \"1100\"\n    },\n    {\n        \"id\": \"15\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1215\",\n        \"arrival\": \"1300\"\n    },\n    {\n        \"id\": \"16\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1415\",\n        \"arrival\": \"1500\"\n    },\n    {\n        \"id\": \"17\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1615\",\n        \"arrival\": \"1700\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Lakeshore"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 05:57:48 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Lakeshore?departure=1000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Lakeshore"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:42:58 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"2\",\n        \"line\": \"Lakeshore\",\n        \"departure\": \"1000\",\n        \"arrival\": \"1100\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Barrie",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Barrie",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Barrie"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 03:16:23 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"6\",\n        \"line\": \"Barrie\",\n        \"departure\": \"730\",\n        \"arrival\": \"930\"\n    },\n    {\n        \"id\": \"7\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1030\",\n        \"arrival\": \"1230\"\n    },\n    {\n        \"id\": \"8\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1230\",\n        \"arrival\": \"1430\"\n    },\n    {\n        \"id\": \"9\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1430\",\n        \"arrival\": \"1630\"\n    },\n    {\n        \"id\": \"10\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1630\",\n        \"arrival\": \"1830\"\n    },\n    {\n        \"id\": \"11\",\n        \"line\": \"Barrie\",\n        \"departure\": \"1830\",\n        \"arrival\": \"2030\"\n    },\n    {\n        \"id\": \"12\",\n        \"line\": \"Barrie\",\n        \"departure\": \"2030\",\n        \"arrival\": \"2230\"\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/schedule/Kitchener?departure=1615",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/schedule/Kitchener?departure=1615",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"schedule",
+								"Kitchener"
+							],
+							"query": [
+								{
+									"key": "departure",
+									"value": "1615"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Apr 2023 06:47:49 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"17\",\n        \"line\": \"Kitchener\",\n        \"departure\": \"1615\",\n        \"arrival\": \"1700\"\n    }\n]"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
